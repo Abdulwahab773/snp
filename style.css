@@ -1,0 +1,350 @@
+@font-face {
+    font-family: myfont;
+    src: url(f.ttf);
+}
+*{
+  background-color: black; 
+  text-decoration: none;
+  /* padding: 0;
+  margin: 0; */
+}
+.navbar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.navdiv{
+    display: flex; !important
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    width: 94%;
+}
+.logo{
+    margin-left: 6%;
+}
+.navitems li{
+    list-style: none;
+    display: inline-block; 
+}
+.navitems ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: ;
+    margin: 30px;
+}
+.navitems ul button{
+    background-color: #ed1c24;
+    margin-left: 40px;
+    border-radius: 35px;
+    padding: 17px;
+    width: 157px;
+    cursor: pointer;
+}
+.navitems ul button a{
+    background-color: #ed1c24;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.delivery img{
+    height: 544px;  
+}
+.para1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+.futurak{
+    font-family: myfont;
+    font-size: 52px;
+}
+.para2{
+    font-family: sans-serif;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+.three{
+    padding: 17px;
+    margin-left: 225px;
+    margin-right: 225px;
+    display: flex;
+    justify-content: space-between;   
+}
+.three-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.three-buttons>button{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(129, 129, 129, 0.7);
+    border-radius: 35px;
+    width: 160px;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+    cursor: pointer;
+}
+.three-buttons>button:hover{
+    background-color: #ed1c24;
+}
+.franchise{
+    text-align: center;
+    padding: 20%;
+    color: white;
+    font-size: 30px;
+    font-family:sans-serif;
+    height: 0px;
+}
+.salt-heading{
+    font-family: myfont;
+    font-size: 48px;
+}
+.para-details{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.city{
+    color: #ed1c24;
+    margin-left: 8%;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 0px;
+}
+.location-heading{
+    margin-left: 8%;
+    font-family: myfont;
+    color: white;
+    font-size: 29px;
+}
+.location-content{
+    font-family: sans-serif;
+    color: white;
+    font-size: 33px;
+}
+.address{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 8%;
+    font-size: 17px;
+    width: 450px;
+}
+.address>button{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(129, 129, 129, 0.7);
+    border-radius: 35px;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+}
+.address>button:hover{
+    background-color: #ed1c24;
+}
+.location-content{
+    width: 50%;
+    flex: 0 0 auto;
+}
+.location-img{
+    position: absolute;
+    top: 1650px; left: 650px;
+    width: 10px;
+}
+.location-img2{
+    position: relative;
+    top: -250px; left: 60px; 
+    display: inline; 
+}
+.location-content2{
+    height: 350px;
+    width: 35%;
+    position: relative;
+    left: 615px;top: 100px;
+}
+.faislabad{
+    color: #ed1c24;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 0px;
+}
+.faislabad-name{
+    font-family: myfont;
+    color: white;
+    font-size: 30px;
+    margin-right: 2%;
+}
+.r{
+    font-family: sans-serif;
+    color: white;
+    font-size: 33px;
+}
+.kohinoor{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: sans-serif;
+}
+.B{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(129, 129, 129, 0.7);
+    border-radius: 35px;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+}
+.B:hover{
+    background-color: #ed1c24;
+}
+
+.location-content3{
+    height: 250px;
+    width: 450px;
+    color: white;
+    position: absolute; 
+    top: 2300px; left: 70px; 
+}
+.bahawalpur{
+    height: 20px;
+    position: absolute;
+    right: 100px; top: 2295px;
+}
+.baha{
+    color: #ed1c24;
+    font-family: sans-serif;
+    font-size: 18px;
+    height: 0px;   
+}
+.Chowk{
+    font-family: sans-serif;
+}
+.express{
+    height: 250px;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 220px;
+}
+.express-1{
+    margin-left: 12%;
+    font-family: myfont;
+    color: white;
+    font-size: 52px;
+}
+.exp{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.franchise-images{ 
+    display: flex;
+    justify-content: space-between; 
+    padding: 108px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.location-one{
+    height: 200px;
+    width: 400px;
+    margin-left: 5%;
+    text-align: center;
+    
+}
+.City-name{
+    font-family: sans-serif;
+    color: #ed1c24;
+    font-size: 14px;
+}
+.header-col{
+    font-family: myfont;
+    color: white;
+    font-size: 25px;
+    line-height: 1px;
+}
+.E{
+    font-family: sans-serif;
+}
+.address-details{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.ten-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(129, 129, 129, 0.7);
+    border-radius: 35px;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.ten-btn:hover{
+    background-color: #ed1c24;
+}
+.location-two{
+    position: absolute;
+    top: 3230px; left: 530px;
+    text-align: center;
+}
+.location-three{
+    position: absolute;
+    top: 3230px; left: 870px;
+    text-align: center;
+}
+.franchise-images2{ 
+    display: flex;
+    justify-content: space-between; 
+    padding: 108px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+.location-four{
+    position: absolute;
+    top: 3750px; left: 120px; 
+    text-align: center;
+}
+.location-five{
+    position: absolute;
+    top: 3750px; left: 555px; 
+    text-align: center;
+}
+.location-six{
+    position: absolute;
+    top: 3750px; left: 875px; 
+    text-align: center;
+}
+.franchise-images3{
+    display: flex;
+    justify-content: space-between; 
+    padding: 108px;
+    padding-bottom: 10px;
+    padding-top: 300px;
+}
+.location-seven{
+    position: absolute;
+    top: 4278px; left: 165px;  
+    text-align: center;
+}
+.location-eight{
+    position: absolute;
+    top: 4278px; left: 510px;  
+    text-align: center;
+}
+.location-nine{
+    position: absolute;
+    top: 4278px; left: 940px;  
+    text-align: center;
+}
+.location-ten{
+    margin-top: 270px;
+    text-align: center;
+}
