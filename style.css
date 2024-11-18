@@ -348,3 +348,34 @@
     margin-top: 270px;
     text-align: center;
 }
+.Working-franchises{
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+}
+.under-C{
+    font-family: myfont;
+    font-size: 50px;
+}
+#Opening-soon{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.Opening-soon-templates{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 60px;
+    text-align: center;
+}
+.Opening-soon-templates>img{
+    margin-top: 25px;
+    background-color: white;
+}
+#img-text{
+    color: #ed1c24;
+    background-color: white;
+}
